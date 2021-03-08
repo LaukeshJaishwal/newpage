@@ -1,0 +1,61 @@
+<!---Navigation bar stat-->
+<nav class="navbar app-nav">
+  <a href="#" class="navbar-brand app-logo"><img src="../assets/image/Nepal.png" alt=""> NCC Birgunj</a>
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link active app-item" routerLink="/home">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link app-item" routerLink="/about">About</a>
+    </li>
+    <li class="nav-item">
+      <div class="btn-group" dropdown>
+        <a dropdownToggle class="dropdown-toggle app-item" aria-controls="dropdown-basic ">BSc.CSIT</a>
+        <ul *dropdownMenu class="dropdown-menu" role="menu" aria-labelledby="button-basic">
+          <li role="menuitem"><a class="dropdown-item" routerLink="/csit">Fist Semester</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Second Semester</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Third Semester</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Fourth Semester</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Fifth Semester</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Six Semester</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Seven Semester</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Eight Semester</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="nav-item">
+      <div class="btn-group" dropdown>
+        <a dropdownToggle class="dropdown-toggle app-item" aria-controls="dropdown-basic ">BCA</a>
+        <ul *dropdownMenu class="dropdown-menu" role="menu" aria-labelledby="button-basic">
+          <li role="menuitem"><a class="dropdown-item" routerLink="/bca">Fist Semester</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Second Semester</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Third Semester</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Fourth Semester</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Fifth Semester</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Six Semester</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Seven Semester</a></li>
+          <li role="menuitem"><a class="dropdown-item" href="#">Eight Semester</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="nav-item">
+      <div class="btn-group" dropdown>
+        <a dropdownToggle class="dropdown-toggle app-item" aria-controls="dropdown-basic ">+2</a>
+        <ul *dropdownMenu class="dropdown-menu" role="menu" aria-labelledby="button-basic">
+          <li role="menuitem"><a class="dropdown-item" >Class 11</a></li>
+          <li role="menuitem"><a class="dropdown-item" >Class 12</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="nav-item">
+     <a class="nav-link app-item" routerLink="/contact">Contact</a>
+    </li>
+  </ul>
+</nav>
+<!---navigation bar end-->
+
+<router-outlet></router-outlet>
+<div class="footer">
+  <P>@Copyright 2021</P>
+</div>
+

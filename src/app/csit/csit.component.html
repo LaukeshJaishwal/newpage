@@ -1,0 +1,21 @@
+<div class="main-content">
+    <div class="sidebar">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-action" (click)="show('cpro')">C Programming</li>
+            <li class="list-group-item list-group-item-action" (click)="show('fit')">Introduction to Information Technology</li>
+            <li class="list-group-item list-group-item-action">Physics</li>
+            <li class="list-group-item list-group-item-action">Digital Logic</li>
+            <li class="list-group-item list-group-item-action">Mathematics1</li>
+        </ul>
+    </div>
+    <div class="sidetext">
+        <div *ngIf="showMenu === 'cpro'">
+            <app-cpro ></app-cpro>
+        </div>
+       
+        <div *ngIf="showMenu === 'fit'">
+            <app-fit></app-fit>
+        </div>
+       
+    </div>
+</div>

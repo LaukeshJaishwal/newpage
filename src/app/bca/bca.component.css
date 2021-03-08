@@ -1,0 +1,13 @@
+.main-content {
+    display: inline-flex;
+}
+.sidebar {
+    width: 350px;
+    height: auto;
+}
+.sidetext {
+    width: 100%;
+    margin-left: 30px;
+    background-color: rgb(235, 230, 230);
+    padding: 10px;
+}

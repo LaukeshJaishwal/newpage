@@ -1,0 +1,46 @@
+.app-nav{
+    background-color: rgb(3, 3, 3);
+    height: 65px;
+}
+.app-logo{
+    color: #ffffff;
+    font-size:25px;
+    font-weight: bold;
+}
+.app-logo img{
+    height: 45px;
+    width: auto;
+}
+.app-item{
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-transform:uppercase;
+}
+
+.app-item:hover {
+    background:#1b9bff;
+    transition: .5s;
+}
+.btn {
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-transform:uppercase;
+}
+.btn:hover {
+    background:#1b9bff;
+    transition: .5s;
+}
+.footer {
+    background-color: rgb(67, 69, 71);
+    padding: 15px;
+    height: 100px;
+}
+.footer p{
+    text-align: center;
+    color: snow;
+    
+}
